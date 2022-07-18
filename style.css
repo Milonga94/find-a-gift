@@ -123,8 +123,10 @@ h3 {
 
 .gifts-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 270px);
     gap: 30px;
+    padding: 0;
 
 }
 
@@ -134,10 +136,18 @@ h3 {
     list-style: none;
     background: #FAFAFA;
     width: 270px;
+    transition: all ease .3s;
+}
+
+.card:hover {
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+    background: #FFFFFF;
 }
 
 .background-cards {
-    display: grid;
-    gap: 75px;
     padding: 24px;
+}
+
+.background-cards h3 {
+    margin-bottom: 75px;
 }
