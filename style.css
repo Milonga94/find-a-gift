@@ -8,6 +8,7 @@ button {
     margin: 0;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 h1 {
@@ -18,12 +19,15 @@ h1 {
 
 h2 {
     font-size: 32px;
-    margin-top: 0;
-    margin-bottom: 25px;
+    margin: 0;
 }
 
 h3 {
     font-size: 20px;
+    margin: 0;
+}
+
+p {
     margin: 0;
 }
 
@@ -103,11 +107,15 @@ h3 {
 .work {
     padding: 165px 165px 105px 100px;
 }
+.work-title {
+    margin-bottom: 25px;
+}
 
 .button-hollow {
     color: #F7941E;
     border: 1px solid #F7941E;
     margin-top: 35px;
+    background-color: transparent;
 }
 
 .section-gifts-cards {
@@ -127,7 +135,7 @@ h3 {
     grid-template-columns: repeat(auto-fit, 270px);
     gap: 30px;
     padding: 0;
-
+    margin-bottom: 135px;
 }
 
 .card {
@@ -150,4 +158,45 @@ h3 {
 
 .background-cards h3 {
     margin-bottom: 75px;
+}
+
+.section-ready-start {
+    background: #F7941E;
+}
+
+.wrapper-ready-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 235px 70px 235px;
+}
+
+.ready-start-text {
+    font-size: 32px;
+}
+
+.ready-start-button {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.button-third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.button-primary-black {
+    color: #FFFFFF;
+    background-color: #231F20;
+}
+
+.button-hollow-black {
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: transparent;
 }
