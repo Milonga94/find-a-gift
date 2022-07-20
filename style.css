@@ -70,6 +70,10 @@ p {
     text-decoration: none;
     color: black;
 }
+.link-white {
+    text-decoration: none;
+    color: white;
+}
 
 .section-gift-work {
     background-color: #F1F1F2;
@@ -107,6 +111,7 @@ p {
 .work {
     padding: 165px 165px 105px 100px;
 }
+
 .work-title {
     margin-bottom: 25px;
 }
@@ -118,7 +123,8 @@ p {
     background-color: transparent;
 }
 
-.section-gifts-cards {
+.section-gifts-cards,
+.section-best-blogs {
     background: #FFFFFF;
 }
 
@@ -147,7 +153,7 @@ p {
     transition: all ease .3s;
 }
 
-.card:hover {
+.card:hover, .card-text:hover {
     filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
     background: #FFFFFF;
 }
@@ -199,4 +205,55 @@ p {
     color: #000000;
     border: 1px solid #000000;
     background-color: transparent;
+}
+.section-best-blogs {
+    background-color: #FFFFFF;
+}
+
+.best-blogs-text {
+    text-align: center;
+    padding: 88px 0 70px;
+}
+
+.blogs-title {
+    margin-bottom: 22px;
+}
+
+.best-way-card {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 770px;
+}
+.best-way-text{
+    background: #231F20;
+    color: #FFFFFF;
+    padding: 64px 78px 48px 78px;
+}
+.name {
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+.way-text {
+    font-size: 49px;
+    margin-bottom: 60px;
+}
+.best-way-card-text {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 570px);
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 40px 0 80px;
+}
+.card-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.card-text {
+    padding: 48px 48px 50px 48px;
+}
+.card-p {
+   font-size: 14px;
+   margin-top: 16px;
 }
