@@ -212,7 +212,7 @@ p {
 
 .best-blogs-text {
     text-align: center;
-    padding: 88px 466px 70px 466px;
+    padding: 88px 0 70px;
 }
 
 .blogs-title {
@@ -227,7 +227,7 @@ p {
 .best-way-text{
     background: #231F20;
     color: #FFFFFF;
-    padding: 64px 200px 48px 78px;
+    padding: 64px 78px 48px 78px;
 }
 .name {
     font-size: 14px;
@@ -243,8 +243,8 @@ p {
     grid-template-columns: repeat(auto-fit, 570px);
     list-style: none;
     gap: 30px;
-    margin: 40px 135px 80px 135px;
-    padding: 0;
+    margin: 0;
+    padding: 40px 0 80px;
 }
 .card-title {
     font-size: 24px;
