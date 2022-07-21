@@ -70,6 +70,7 @@ p {
     text-decoration: none;
     color: black;
 }
+
 .link-white {
     text-decoration: none;
     color: white;
@@ -153,7 +154,8 @@ p {
     transition: all ease .3s;
 }
 
-.card:hover, .card-text:hover {
+.card:hover,
+.card-text:hover {
     filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
     background: #FFFFFF;
 }
@@ -206,6 +208,7 @@ p {
     border: 1px solid #000000;
     background-color: transparent;
 }
+
 .section-best-blogs {
     background-color: #FFFFFF;
 }
@@ -224,19 +227,23 @@ p {
     justify-content: center;
     grid-template-columns: 400px 770px;
 }
-.best-way-text{
+
+.best-way-text {
     background: #231F20;
     color: #FFFFFF;
     padding: 64px 78px 48px 78px;
 }
+
 .name {
     font-size: 14px;
     margin-bottom: 28px;
 }
+
 .way-text {
     font-size: 49px;
     margin-bottom: 60px;
 }
+
 .best-way-card-text {
     display: grid;
     justify-content: center;
@@ -246,14 +253,58 @@ p {
     margin: 0;
     padding: 40px 0 80px;
 }
+
 .card-title {
     font-size: 24px;
     margin-bottom: 16px;
 }
+
 .card-text {
     padding: 48px 48px 50px 48px;
 }
+
 .card-p {
-   font-size: 14px;
-   margin-top: 16px;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.page-footer {
+    background-color: #FAFAFA;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 106px 330px 44px;
+}
+
+.logo-footer {
+    margin: 0 100px;
+}
+
+.line {
+    width: 1000px;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    padding: 56px 0 72px;
+}
+.policy {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-bottom: 36px;
+}
+.policy-text {
+    font-size: 14px;
 }
